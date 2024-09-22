@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="contenedor ">
+        <form action="" method="post">
+            <p>
+            <label for="nombre">Nombre</label> <br>
+            <!-- autofocus para que inicie en ese elemento marcadoel cursor (solo se puede utilizar una vez) -->
+            <input type="text" id="nombre" name="nombre"  autofocus required placeholder="proporcione su nombre">
+            </p> <br>
+            <p>
+            <label for="apellido">Apellido</label> <br>
+            <!-- size para que se haga mas largo el navegador -->
+            <input type="text" id="apellido" name="apellido" size="40" autofocus required  placeholder="proporcione su apellido"> 
+            </p>
+            <p>
+               <br> <label for="estatus">Estatus</label> <br>
+                <input type="text" name="estatus" value="activo" readonly title="Este valor es solo de lectura">
+            </p>
+            <p>
+               <br> <label for="contraseña">Contraseña</label> <br>
+                    <input type="password" name="contraseña" required placeholder="Ejemplo Kevin">
+            </p>
+            <p>
+                <input type="hidden" name="nip" value="542">
+            </p>
+            <p>
+                <br><label for="navegador">Navegador</label>
+                <select name="navegador" name="navegador" required>
+                    <option value="chrome">Google Chrome</option>
+                    <option value="opera">Opera</option>
+                    <option value="edge">Edge</option>
+                    <option value="firefox">Firefox</option>
+                </select>
+            </p>
+            <p>
+                <br><input type="submit" name="enviar" id="">
+            </p>
+        </form>
+    </div>
+</body>
+</html>

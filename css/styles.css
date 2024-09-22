@@ -1,0 +1,181 @@
+* {
+    margin: 0px;
+    padding: 0px;  
+}
+
+#contenedor {
+    width: 95%;
+    margin: 3%;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5em;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+#encabezado {
+    background: url(../img/pexels-introspectivedsgn-16728013.jpg)
+}
+
+button {
+    width: 20%;
+    height: 10%;
+    
+}
+
+#logo {
+    float: left;
+    width: 10%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+#logo img {
+    width: 100%;
+    height: 100%;
+}
+
+#espacio {
+    float: left;
+    width: 20%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+#menu {
+    font-size: 14px;
+    display: inline-block;
+    width: 70%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+#menu :hover {
+    text-decoration: dotted;
+    color: rgb(116, 116, 116);
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+nav ol li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin: 15px;
+    font-size: 2em;
+    display: inline-block;
+}
+
+p {
+    margin: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+#si {
+    box-sizing: border-box;
+    border: 2px red solid;
+    float: left;
+    width: 50%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+}
+
+#sd {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 200px;
+    background-color: rgb(255, 255, 255); 
+    text-align: justify;  
+}
+
+#mi {
+    box-sizing: border-box;
+    border: 2px red solid;
+    margin: 1px;
+    text-align: center;
+    float: left;
+    width: 33%;
+    height: 250px;
+    background-color: rgb(255, 255, 255); 
+    text-align: justify;  
+}
+
+#mc {
+    box-sizing: border-box;
+    border: 2px red solid;
+    margin: 1px;
+    text-align: center;
+    float: left;
+    width: 33%;
+    height: 250px;
+    background-color: rgb(255, 255, 255); 
+    text-align: justify;   
+}
+
+#md {
+    box-sizing: border-box;
+    border: 2px red solid;
+    margin: 1px;
+    text-align: center;
+    float: left;
+    width: 33%;
+    height: 250px;
+    background-color: rgb(255, 255, 255); 
+    text-align: justify;  
+}
+
+#ii {
+    box-sizing: border-box;
+    border: 2px red solid;
+    float: right;
+    margin: 1px;
+    width: 49%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);  
+    text-align: justify; 
+
+}
+#id {
+    float: right;
+    margin: 1px;
+    width: 49%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);  
+    text-align: justify; 
+}
+
+footer {
+    float: left;
+    text-align: center;
+
+}
+
+table{
+    margin: 20px;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+hr{
+    margin: 10px;
+    width: 100%;
+}

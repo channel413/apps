@@ -1,0 +1,120 @@
+/* selector universal */
+* {
+    margin: 0px;
+    /* Paddign = Sangria */
+    padding: 5px; 
+}
+
+/* selector body */
+body {
+    background-color: rgba(165, 222, 195, 0.741);
+    /* color = Color de letra */
+    color: rgba(255, 255, 255, 0.786);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* 1em = 12px */
+    font-size: 1em;
+}
+/* #para identificador */
+#contenedor{
+    width: 90%;
+    margin: 5px auto;
+    border: 4px #011a1560 solid;
+    border-radius: 1%;
+}
+
+nav {
+    background-color: rgba(105, 203, 170, 0.337);
+    text-align: center; 
+    position: fixed;
+    width: 88%;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+
+}
+
+nav ul li a {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    width: 100%;
+}
+/* hover para que cuando pase el cursor 
+se ponga de un color diferente el link */
+a:hover {
+    color: rgba(0, 255, 162, 0.61);
+}
+
+header{
+    margin-top: 40px;
+    height: 150px;
+    /* .. es retroceder un nivel en las carpetas */
+    background: silver url("../IMG/Perfil.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    line-height: 150px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 1%;
+}
+
+p {
+    box-sizing: border-box;
+    border: 2px rgba(255, 255, 255, 0.497) solid;
+    padding: 2%;
+    text-align: justify;
+    border: 1xp #011a1560;
+    border-radius: 10xp;
+    margin: 50sxp 20xp;
+}
+ /* . para identidficador de parrafo */
+.impar {
+    color: black;
+}
+
+.par {
+    color: rgb(255, 255, 255);
+    padding: 0px 50px;
+}
+
+hr {
+    margin: 10px auto;
+    width: 70%;
+    color: silver;
+}
+
+#Panel {
+    width: 50%;
+    margin: 10px auto;
+    height: 300px;
+    border: 1px silver outset;
+    border-radius: 10px;
+}
+
+.Caja {
+    width: 95%;
+    height: 30px;
+    margin: 5px auto;
+}
+
+.Mensaje {
+    width: 95%;
+    height: 30px;
+    margin: 5px auto;
+    height: 80px;
+}
+
+.Boton {
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 25%;
+    height: 30px;
+    margin-bottom: 10px;
+}

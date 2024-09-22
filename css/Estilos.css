@@ -1,0 +1,73 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 6%;
+    margin-top: 0%;
+   background-color: rgba(255, 255, 255, 0.501);
+   color: rgb(0, 0, 0);
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 1em;
+}
+
+header{
+    background-color: rgba(0, 102, 255, 0.433);
+    padding: 1%;
+    background: url(../IMG/WRX-2.jpg);
+}
+
+h1 {
+    color: aliceblue;
+}
+
+nav {
+    background-color: rgba(206, 240, 239, 0.494);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a {
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 1.2em;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.453);
+}
+
+h1, h2 {   
+    text-align: center;
+}
+
+p {
+    box-sizing: border-box;
+    border: 2px red solid;
+    text-align: justify;
+    padding: 10px;
+    border: 50px;
+    margin:  5%;
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a:hover {
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(206, 240, 239);
+}
